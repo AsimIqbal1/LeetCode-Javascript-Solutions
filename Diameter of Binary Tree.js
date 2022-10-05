@@ -39,3 +39,6 @@ var diameterOfBinaryTree = function(root) {
     const max = Math.max(ld, Math.max(r, rd));
     return max;
 };
+
+diameterOfBinaryTree([1,2,3,4,5])
+diameterOfBinaryTree([1,2])
